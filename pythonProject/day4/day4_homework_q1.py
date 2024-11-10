@@ -14,7 +14,7 @@ baili = copy.deepcopy(beifan)
 baili["语文"] = beifan["语文"] + 20
 baili["跳远"][-1] = 1.5
 
-xingyao = copy.copy(beifan)
+xingyao = copy.deepcopy(beifan)
 xingyao["语文"] = beifan["语文"] + 10
 
 print(f"北凡的成绩是: {beifan}; \n百里的成绩是: {baili}; \n星瑶的成绩是: {xingyao}.")
