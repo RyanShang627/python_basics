@@ -1,0 +1,22 @@
+print("开始执行代码")
+
+try:
+    print(1)
+    print(1)
+    print(1)
+    print(1/0)
+    print(2)
+    print(2)
+except:
+    print("如果try当中的代码块出现了异常，那么执行except当中的代码")
+    print(3)
+    print(3)
+else:
+    print("如果try当中的代码块没有出现异常，那么执行else当中的代码")
+    print(4)
+    print(4)
+finally:
+    print("不管try当中是否有异常，最后都会执行finally当中的代码")
+    print(5)
+    print(5)
+print("结束执行代码")
